@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67BEBB312D8F177800F4E83D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB302D8F177500F4E83D /* UserInfo.swift */; };
+		67BEBB332D8F179300F4E83D /* BibleModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB322D8F178C00F4E83D /* BibleModels.swift */; };
+		67BEBB362D8F17C000F4E83D /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB352D8F17BD00F4E83D /* Dynamic.swift */; };
+		67BEBB382D8F17C800F4E83D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB372D8F17C500F4E83D /* MainViewModel.swift */; };
+		67BEBB3D2D8F182900F4E83D /* States.json in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBB3C2D8F182900F4E83D /* States.json */; };
+		67BEBB3F2D8F186E00F4E83D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB3E2D8F186800F4E83D /* NetworkManager.swift */; };
+		67BEBB412D8F18AE00F4E83D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB402D8F18A300F4E83D /* UserService.swift */; };
+		67BEBB432D8F195100F4E83D /* BibleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB422D8F194E00F4E83D /* BibleService.swift */; };
+		67BEBB452D8F1A5E00F4E83D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB442D8F1A5B00F4E83D /* Note.swift */; };
+		67BEBB472D8F1A8100F4E83D /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB462D8F1A7C00F4E83D /* CalendarDay.swift */; };
+		67BEBB492D8F1AB900F4E83D /* UIView+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB482D8F1AB100F4E83D /* UIView+Extended.swift */; };
+		67BEBB4B2D8F1AD400F4E83D /* UIColor+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB4A2D8F1ACF00F4E83D /* UIColor+Extended.swift */; };
+		67BEBB4D2D8F1B2D00F4E83D /* UIButton+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB4C2D8F1B2A00F4E83D /* UIButton+Extended.swift */; };
+		67BEBB4F2D8F1B4500F4E83D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB4E2D8F1B4000F4E83D /* KeyboardViewController.swift */; };
+		67BEBB512D8F1B7500F4E83D /* UIImage+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB502D8F1B6F00F4E83D /* UIImage+Extended.swift */; };
+		67BEBB532D8F1B9000F4E83D /* UIViewController+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB522D8F1B8900F4E83D /* UIViewController+Extended.swift */; };
+		67BEBB552D8F1BA300F4E83D /* UITextField+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB542D8F1B9D00F4E83D /* UITextField+Extended.swift */; };
+		67BEBB572D8F1BBF00F4E83D /* String+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB562D8F1BBB00F4E83D /* String+Extended.swift */; };
+		67BEBB592D8F1BD300F4E83D /* Date+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB582D8F1BD000F4E83D /* Date+Extended.swift */; };
 		67D7AA3C2D8F12A200DAC3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7AA332D8F12A200DAC3DF /* AppDelegate.swift */; };
 		67D7AA3D2D8F12A200DAC3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7AA3A2D8F12A200DAC3DF /* ViewController.swift */; };
 		67D7AA3E2D8F12A200DAC3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D7AA342D8F12A200DAC3DF /* Assets.xcassets */; };
@@ -18,6 +37,25 @@
 
 /* Begin PBXFileReference section */
 		12EA497F610B8AF245F4C911 /* Pods-BibleTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleTracker.release.xcconfig"; path = "Target Support Files/Pods-BibleTracker/Pods-BibleTracker.release.xcconfig"; sourceTree = "<group>"; };
+		67BEBB302D8F177500F4E83D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		67BEBB322D8F178C00F4E83D /* BibleModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleModels.swift; sourceTree = "<group>"; };
+		67BEBB352D8F17BD00F4E83D /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		67BEBB372D8F17C500F4E83D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		67BEBB3C2D8F182900F4E83D /* States.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = States.json; sourceTree = "<group>"; };
+		67BEBB3E2D8F186800F4E83D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		67BEBB402D8F18A300F4E83D /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		67BEBB422D8F194E00F4E83D /* BibleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleService.swift; sourceTree = "<group>"; };
+		67BEBB442D8F1A5B00F4E83D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		67BEBB462D8F1A7C00F4E83D /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
+		67BEBB482D8F1AB100F4E83D /* UIView+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extended.swift"; sourceTree = "<group>"; };
+		67BEBB4A2D8F1ACF00F4E83D /* UIColor+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extended.swift"; sourceTree = "<group>"; };
+		67BEBB4C2D8F1B2A00F4E83D /* UIButton+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extended.swift"; sourceTree = "<group>"; };
+		67BEBB4E2D8F1B4000F4E83D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		67BEBB502D8F1B6F00F4E83D /* UIImage+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extended.swift"; sourceTree = "<group>"; };
+		67BEBB522D8F1B8900F4E83D /* UIViewController+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extended.swift"; sourceTree = "<group>"; };
+		67BEBB542D8F1B9D00F4E83D /* UITextField+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extended.swift"; sourceTree = "<group>"; };
+		67BEBB562D8F1BBB00F4E83D /* String+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extended.swift"; sourceTree = "<group>"; };
+		67BEBB582D8F1BD000F4E83D /* Date+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extended.swift"; sourceTree = "<group>"; };
 		67D7AA1B2D8F128C00DAC3DF /* BibleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D7AA332D8F12A200DAC3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D7AA342D8F12A200DAC3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +80,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67BEBB2D2D8F171300F4E83D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67D7AA392D8F12A200DAC3DF /* Main.storyboard */,
+				67D7AA3A2D8F12A200DAC3DF /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67BEBB342D8F179B00F4E83D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67BEBB462D8F1A7C00F4E83D /* CalendarDay.swift */,
+				67BEBB442D8F1A5B00F4E83D /* Note.swift */,
+				67BEBB322D8F178C00F4E83D /* BibleModels.swift */,
+				67BEBB302D8F177500F4E83D /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67BEBB392D8F17CE00F4E83D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67BEBB372D8F17C500F4E83D /* MainViewModel.swift */,
+				67BEBB352D8F17BD00F4E83D /* Dynamic.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67BEBB3A2D8F17E300F4E83D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67BEBB582D8F1BD000F4E83D /* Date+Extended.swift */,
+				67BEBB562D8F1BBB00F4E83D /* String+Extended.swift */,
+				67BEBB542D8F1B9D00F4E83D /* UITextField+Extended.swift */,
+				67BEBB522D8F1B8900F4E83D /* UIViewController+Extended.swift */,
+				67BEBB502D8F1B6F00F4E83D /* UIImage+Extended.swift */,
+				67BEBB4E2D8F1B4000F4E83D /* KeyboardViewController.swift */,
+				67BEBB4C2D8F1B2A00F4E83D /* UIButton+Extended.swift */,
+				67BEBB4A2D8F1ACF00F4E83D /* UIColor+Extended.swift */,
+				67BEBB482D8F1AB100F4E83D /* UIView+Extended.swift */,
+				67BEBB3C2D8F182900F4E83D /* States.json */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		67BEBB3B2D8F17EE00F4E83D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				67BEBB422D8F194E00F4E83D /* BibleService.swift */,
+				67BEBB402D8F18A300F4E83D /* UserService.swift */,
+				67BEBB3E2D8F186800F4E83D /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		67D7AA122D8F128C00DAC3DF = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +161,11 @@
 				67D7AA342D8F12A200DAC3DF /* Assets.xcassets */,
 				67D7AA352D8F12A200DAC3DF /* Info.plist */,
 				67D7AA372D8F12A200DAC3DF /* LaunchScreen.storyboard */,
-				67D7AA392D8F12A200DAC3DF /* Main.storyboard */,
-				67D7AA3A2D8F12A200DAC3DF /* ViewController.swift */,
+				67BEBB342D8F179B00F4E83D /* Model */,
+				67BEBB2D2D8F171300F4E83D /* View */,
+				67BEBB392D8F17CE00F4E83D /* ViewModel */,
+				67BEBB3A2D8F17E300F4E83D /* Extensions */,
+				67BEBB3B2D8F17EE00F4E83D /* Services */,
 				67D7AA422D8F154400DAC3DF /* GoogleService-Info.plist */,
 			);
 			path = BibleTracker;
@@ -152,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D7AA3E2D8F12A200DAC3DF /* Assets.xcassets in Resources */,
+				67BEBB3D2D8F182900F4E83D /* States.json in Resources */,
 				67D7AA432D8F154400DAC3DF /* GoogleService-Info.plist in Resources */,
 				67D7AA402D8F12A200DAC3DF /* LaunchScreen.storyboard in Resources */,
 				67D7AA412D8F12A200DAC3DF /* Main.storyboard in Resources */,
@@ -207,8 +305,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BEBB472D8F1A8100F4E83D /* CalendarDay.swift in Sources */,
+				67BEBB4F2D8F1B4500F4E83D /* KeyboardViewController.swift in Sources */,
 				67D7AA3C2D8F12A200DAC3DF /* AppDelegate.swift in Sources */,
+				67BEBB362D8F17C000F4E83D /* Dynamic.swift in Sources */,
+				67BEBB592D8F1BD300F4E83D /* Date+Extended.swift in Sources */,
+				67BEBB312D8F177800F4E83D /* UserInfo.swift in Sources */,
+				67BEBB3F2D8F186E00F4E83D /* NetworkManager.swift in Sources */,
+				67BEBB492D8F1AB900F4E83D /* UIView+Extended.swift in Sources */,
+				67BEBB412D8F18AE00F4E83D /* UserService.swift in Sources */,
+				67BEBB452D8F1A5E00F4E83D /* Note.swift in Sources */,
+				67BEBB532D8F1B9000F4E83D /* UIViewController+Extended.swift in Sources */,
+				67BEBB332D8F179300F4E83D /* BibleModels.swift in Sources */,
 				67D7AA3D2D8F12A200DAC3DF /* ViewController.swift in Sources */,
+				67BEBB4D2D8F1B2D00F4E83D /* UIButton+Extended.swift in Sources */,
+				67BEBB432D8F195100F4E83D /* BibleService.swift in Sources */,
+				67BEBB572D8F1BBF00F4E83D /* String+Extended.swift in Sources */,
+				67BEBB552D8F1BA300F4E83D /* UITextField+Extended.swift in Sources */,
+				67BEBB4B2D8F1AD400F4E83D /* UIColor+Extended.swift in Sources */,
+				67BEBB512D8F1B7500F4E83D /* UIImage+Extended.swift in Sources */,
+				67BEBB382D8F17C800F4E83D /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
