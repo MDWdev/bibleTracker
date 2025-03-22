@@ -26,5 +26,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:188957995352:ios:97531566836f00e1daf52d</string>
+	<key>DATABASE_URL</key>
+	<string>https://bibletracker-e668c-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
