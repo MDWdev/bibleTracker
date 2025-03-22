@@ -46,13 +46,11 @@ extension UIColor {
      Holds colors used throughout the app
      */
     struct AppColors {
-        static let lightTaupe = UIColor(red:0.69, green:0.66, blue:0.63, alpha:1)
-        static let darkTaupe = UIColor(red:0.47, green:0.43, blue:0.39, alpha:1)
-        static let darkBlue = UIColor(red:0/255.0, green:59.0/255.0, blue:92.0/255.0, alpha:1)
-        static let darkBlueTransparent = UIColor(red:0/255.0, green:59.0/255.0, blue:92.0/255.0, alpha:0.7)
-        static let thatOtherBlue = UIColor(red: 1.0/255.0, green:59.0/255.0, blue:92.0/255.0, alpha:0.95)
-        static let mediumBlue = UIColor(red:0, green:0.45, blue:0.59, alpha:1)
-        static let mediumBlueTransparent = UIColor(red:0, green:0.45, blue:0.59, alpha:0.45)
+        static let darkBlue = UIColor(red:46.0/255.0, green:45.0/255.0, blue:77.0/255.0, alpha:1) // 2E2D4D
+        static let pearl = UIColor(red:234.0/255.0, green:224.0/255.0, blue:204.0/255.0, alpha:1) // EAE0CC
+        static let pink = UIColor(red:166.0/255.0, green:127.0/255.0, blue:142.0/255.0, alpha:1) // A67F8E
+        static let darkGreen = UIColor(red:2.0/255.0, green:54.0/255.0, blue:24.0/255.0, alpha:1) // 023618
+        static let lightGreen = UIColor(red:100.0/255.0, green:135.0/255.0, blue:103.0/255.0, alpha:1)  // 648767
     }
     
     /**
