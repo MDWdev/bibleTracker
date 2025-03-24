@@ -32,6 +32,14 @@
 		67BEBB612D8F2EF500F4E83D /* MainTabletContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBB602D8F2EF500F4E83D /* MainTabletContainer.xib */; };
 		67BEBB632D8F2F2300F4E83D /* MainTabletContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB622D8F2F1D00F4E83D /* MainTabletContainer.swift */; };
 		67BEBB652D8F311A00F4E83D /* ContainersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB642D8F311500F4E83D /* ContainersViewModel.swift */; };
+		67BEBB672D8FA5BD00F4E83D /* SignInUVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB662D8FA5B700F4E83D /* SignInUVC.swift */; };
+		67BEBB692D8FA5D000F4E83D /* SignInUVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBB682D8FA5D000F4E83D /* SignInUVC.xib */; };
+		67BEBB6D2D8FB00D00F4E83D /* SignInOverlayUVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBB6C2D8FB00D00F4E83D /* SignInOverlayUVC.xib */; };
+		67BEBB6E2D8FB00D00F4E83D /* SignInOverlayUVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB6B2D8FB00D00F4E83D /* SignInOverlayUVC.swift */; };
+		67BEBB712D90E61700F4E83D /* RegisterPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB6F2D90E61700F4E83D /* RegisterPVC.swift */; };
+		67BEBB722D90E61700F4E83D /* RegisterPVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBB702D90E61700F4E83D /* RegisterPVC.xib */; };
+		67BEBB742D90EB2800F4E83D /* RegisterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBB732D90EB2000F4E83D /* RegisterTVC.swift */; };
+		67BEBB762D90EB3800F4E83D /* RegisterTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BEBB752D90EB3800F4E83D /* RegisterTVC.xib */; };
 		67D7AA3C2D8F12A200DAC3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7AA332D8F12A200DAC3DF /* AppDelegate.swift */; };
 		67D7AA3D2D8F12A200DAC3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7AA3A2D8F12A200DAC3DF /* ViewController.swift */; };
 		67D7AA3E2D8F12A200DAC3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D7AA342D8F12A200DAC3DF /* Assets.xcassets */; };
@@ -68,6 +76,14 @@
 		67BEBB602D8F2EF500F4E83D /* MainTabletContainer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabletContainer.xib; sourceTree = "<group>"; };
 		67BEBB622D8F2F1D00F4E83D /* MainTabletContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabletContainer.swift; sourceTree = "<group>"; };
 		67BEBB642D8F311500F4E83D /* ContainersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersViewModel.swift; sourceTree = "<group>"; };
+		67BEBB662D8FA5B700F4E83D /* SignInUVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUVC.swift; sourceTree = "<group>"; };
+		67BEBB682D8FA5D000F4E83D /* SignInUVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInUVC.xib; sourceTree = "<group>"; };
+		67BEBB6B2D8FB00D00F4E83D /* SignInOverlayUVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOverlayUVC.swift; sourceTree = "<group>"; };
+		67BEBB6C2D8FB00D00F4E83D /* SignInOverlayUVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInOverlayUVC.xib; sourceTree = "<group>"; };
+		67BEBB6F2D90E61700F4E83D /* RegisterPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPVC.swift; sourceTree = "<group>"; };
+		67BEBB702D90E61700F4E83D /* RegisterPVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPVC.xib; sourceTree = "<group>"; };
+		67BEBB732D90EB2000F4E83D /* RegisterTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTVC.swift; sourceTree = "<group>"; };
+		67BEBB752D90EB3800F4E83D /* RegisterTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterTVC.xib; sourceTree = "<group>"; };
 		67D7AA1B2D8F128C00DAC3DF /* BibleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D7AA332D8F12A200DAC3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D7AA342D8F12A200DAC3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +117,7 @@
 				67BEBB5C2D8F2E5C00F4E83D /* MainPhoneContainer.swift */,
 				67BEBB602D8F2EF500F4E83D /* MainTabletContainer.xib */,
 				67BEBB622D8F2F1D00F4E83D /* MainTabletContainer.swift */,
+				67BEBB6A2D8FA5DD00F4E83D /* LoginProcess */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +169,21 @@
 				67BEBB3E2D8F186800F4E83D /* NetworkManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		67BEBB6A2D8FA5DD00F4E83D /* LoginProcess */ = {
+			isa = PBXGroup;
+			children = (
+				67BEBB752D90EB3800F4E83D /* RegisterTVC.xib */,
+				67BEBB732D90EB2000F4E83D /* RegisterTVC.swift */,
+				67BEBB702D90E61700F4E83D /* RegisterPVC.xib */,
+				67BEBB6F2D90E61700F4E83D /* RegisterPVC.swift */,
+				67BEBB6C2D8FB00D00F4E83D /* SignInOverlayUVC.xib */,
+				67BEBB6B2D8FB00D00F4E83D /* SignInOverlayUVC.swift */,
+				67BEBB682D8FA5D000F4E83D /* SignInUVC.xib */,
+				67BEBB662D8FA5B700F4E83D /* SignInUVC.swift */,
+			);
+			path = LoginProcess;
 			sourceTree = "<group>";
 		};
 		67D7AA122D8F128C00DAC3DF = {
@@ -267,11 +299,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D7AA3E2D8F12A200DAC3DF /* Assets.xcassets in Resources */,
+				67BEBB762D90EB3800F4E83D /* RegisterTVC.xib in Resources */,
 				67BEBB5F2D8F2E7700F4E83D /* MainPhoneContainer.xib in Resources */,
 				67BEBB3D2D8F182900F4E83D /* States.json in Resources */,
 				67D7AA432D8F154400DAC3DF /* GoogleService-Info.plist in Resources */,
+				67BEBB692D8FA5D000F4E83D /* SignInUVC.xib in Resources */,
+				67BEBB6D2D8FB00D00F4E83D /* SignInOverlayUVC.xib in Resources */,
 				67D7AA402D8F12A200DAC3DF /* LaunchScreen.storyboard in Resources */,
 				67BEBB612D8F2EF500F4E83D /* MainTabletContainer.xib in Resources */,
+				67BEBB722D90E61700F4E83D /* RegisterPVC.xib in Resources */,
 				67D7AA412D8F12A200DAC3DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +377,12 @@
 				67BEBB5D2D8F2E5C00F4E83D /* MainPhoneContainer.swift in Sources */,
 				67D7AA3D2D8F12A200DAC3DF /* ViewController.swift in Sources */,
 				67BEBB4D2D8F1B2D00F4E83D /* UIButton+Extended.swift in Sources */,
+				67BEBB672D8FA5BD00F4E83D /* SignInUVC.swift in Sources */,
+				67BEBB6E2D8FB00D00F4E83D /* SignInOverlayUVC.swift in Sources */,
+				67BEBB742D90EB2800F4E83D /* RegisterTVC.swift in Sources */,
 				67BEBB432D8F195100F4E83D /* BibleService.swift in Sources */,
 				67BEBB572D8F1BBF00F4E83D /* String+Extended.swift in Sources */,
+				67BEBB712D90E61700F4E83D /* RegisterPVC.swift in Sources */,
 				67BEBB552D8F1BA300F4E83D /* UITextField+Extended.swift in Sources */,
 				67BEBB4B2D8F1AD400F4E83D /* UIColor+Extended.swift in Sources */,
 				67BEBB632D8F2F2300F4E83D /* MainTabletContainer.swift in Sources */,

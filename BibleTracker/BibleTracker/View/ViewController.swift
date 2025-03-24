@@ -38,11 +38,11 @@ class ViewController: UIViewController {
                         }
                     }
                     
-//                    if let baseController = baseController as? MainTabletContainer, let tvm = baseController.viewModel {
-//                        tvm.update(user: user)
-//                    } else if let baseController = baseController as? MainPhoneContainer, let pvm = baseController.viewModel {
-//                        pvm.update(user: user)
-//                    }
+                    if let baseController = baseController as? MainTabletContainer, let tvm = baseController.viewModel {
+                        tvm.update(user: user)
+                    } else if let baseController = baseController as? MainPhoneContainer, let pvm = baseController.viewModel {
+                        pvm.update(user: user)
+                    }
                 }
             }
             
