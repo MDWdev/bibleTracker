@@ -26,7 +26,9 @@ class RegisterTVC: KeyboardViewController, NVActivityIndicatorViewable {
     }
     
     @IBAction func goBack() {
-        self.dismissDetailToLeft()
+        if let baseController = baseController as? MainTabletContainer {
+//            baseController.closeRegister()
+        }
     }
     
     @IBAction func submit() {}

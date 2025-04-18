@@ -58,3 +58,8 @@ class MainTabletContainer: UIViewController {
     
     
 }
+
+// open close secondary views
+extension MainTabletContainer {
+    
+}

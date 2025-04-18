@@ -45,8 +45,10 @@
 		67D7AA3E2D8F12A200DAC3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D7AA342D8F12A200DAC3DF /* Assets.xcassets */; };
 		67D7AA402D8F12A200DAC3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D7AA372D8F12A200DAC3DF /* LaunchScreen.storyboard */; };
 		67D7AA412D8F12A200DAC3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D7AA392D8F12A200DAC3DF /* Main.storyboard */; };
-		67D7AA432D8F154400DAC3DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67D7AA422D8F154400DAC3DF /* GoogleService-Info.plist */; };
 		7002D8B0330AAD90F3AC4AE3 /* Pods_BibleTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD7426D59237BB6FDBE2761 /* Pods_BibleTracker.framework */; };
+		965F534E2DB2995700118CEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 965F534D2DB2995700118CEE /* GoogleService-Info.plist */; };
+		965F53502DB2A48A00118CEE /* MenuUVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965F534F2DB2A48A00118CEE /* MenuUVC.storyboard */; };
+		965F53522DB2A49D00118CEE /* MenuUVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F53512DB2A49D00118CEE /* MenuUVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,7 +93,9 @@
 		67D7AA362D8F12A200DAC3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67D7AA382D8F12A200DAC3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67D7AA3A2D8F12A200DAC3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67D7AA422D8F154400DAC3DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		965F534D2DB2995700118CEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		965F534F2DB2A48A00118CEE /* MenuUVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuUVC.storyboard; sourceTree = "<group>"; };
+		965F53512DB2A49D00118CEE /* MenuUVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuUVC.swift; sourceTree = "<group>"; };
 		9AD7426D59237BB6FDBE2761 /* Pods_BibleTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BibleTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4B169740E08A54BE6557EA /* Pods-BibleTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleTracker.debug.xcconfig"; path = "Target Support Files/Pods-BibleTracker/Pods-BibleTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +122,7 @@
 				67BEBB602D8F2EF500F4E83D /* MainTabletContainer.xib */,
 				67BEBB622D8F2F1D00F4E83D /* MainTabletContainer.swift */,
 				67BEBB6A2D8FA5DD00F4E83D /* LoginProcess */,
+				965F53532DB2A4A400118CEE /* MenuScreens */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,9 +221,18 @@
 				67BEBB392D8F17CE00F4E83D /* ViewModel */,
 				67BEBB3A2D8F17E300F4E83D /* Extensions */,
 				67BEBB3B2D8F17EE00F4E83D /* Services */,
-				67D7AA422D8F154400DAC3DF /* GoogleService-Info.plist */,
+				965F534D2DB2995700118CEE /* GoogleService-Info.plist */,
 			);
 			path = BibleTracker;
+			sourceTree = "<group>";
+		};
+		965F53532DB2A4A400118CEE /* MenuScreens */ = {
+			isa = PBXGroup;
+			children = (
+				965F534F2DB2A48A00118CEE /* MenuUVC.storyboard */,
+				965F53512DB2A49D00118CEE /* MenuUVC.swift */,
+			);
+			path = MenuScreens;
 			sourceTree = "<group>";
 		};
 		BA79E1AEFC17CF24E3FD563B /* Pods */ = {
@@ -302,10 +316,11 @@
 				67BEBB762D90EB3800F4E83D /* RegisterTVC.xib in Resources */,
 				67BEBB5F2D8F2E7700F4E83D /* MainPhoneContainer.xib in Resources */,
 				67BEBB3D2D8F182900F4E83D /* States.json in Resources */,
-				67D7AA432D8F154400DAC3DF /* GoogleService-Info.plist in Resources */,
+				965F534E2DB2995700118CEE /* GoogleService-Info.plist in Resources */,
 				67BEBB692D8FA5D000F4E83D /* SignInUVC.xib in Resources */,
 				67BEBB6D2D8FB00D00F4E83D /* SignInOverlayUVC.xib in Resources */,
 				67D7AA402D8F12A200DAC3DF /* LaunchScreen.storyboard in Resources */,
+				965F53502DB2A48A00118CEE /* MenuUVC.storyboard in Resources */,
 				67BEBB612D8F2EF500F4E83D /* MainTabletContainer.xib in Resources */,
 				67BEBB722D90E61700F4E83D /* RegisterPVC.xib in Resources */,
 				67D7AA412D8F12A200DAC3DF /* Main.storyboard in Resources */,
@@ -389,6 +404,7 @@
 				67BEBB512D8F1B7500F4E83D /* UIImage+Extended.swift in Sources */,
 				67BEBB652D8F311A00F4E83D /* ContainersViewModel.swift in Sources */,
 				67BEBB382D8F17C800F4E83D /* MainViewModel.swift in Sources */,
+				965F53522DB2A49D00118CEE /* MenuUVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
